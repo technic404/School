@@ -29,3 +29,11 @@ function login(user, pass) {
 
     return new Success(1, "Successfully logged in!")
 }
+
+/**
+ * 
+ * @returns {User} returns an empty null user (just for tests)
+ */
+function getEmptyUser() {
+    return new User(-1, null, null);
+}
