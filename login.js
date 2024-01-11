@@ -13,6 +13,7 @@ class Success extends Info { }
  * 
  * @param {string} user
  * @param {string} pass
+ * @returns {Success|Error}
  */
 function login(user, pass) {
     const database = {
